@@ -1,4 +1,4 @@
-import chunk = require('lodash/chunk');
+import chunk = require('lodash.chunk');
 
 /**
  * A method to split an array into an array of arrays with the size splitSize.
