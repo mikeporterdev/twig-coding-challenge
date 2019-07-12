@@ -21,6 +21,12 @@ describe('SplitArray function', () => {
       expect(splitArray([1], -1)).toStrictEqual([]);
       expect(splitArrayLodash([1], -1)).toStrictEqual([]);
     });
+
+    it('should handle pathological splitSize inputs', function() {
+      expect(splitArray([1, 2, 3], NaN)).toStrictEqual([]);
+      expect(splitArray([1, 2, 3], undefined)).toStrictEqual([]);
+      expect(splitArray([1, 2, 3], Infinity)).toStrictEqual([[1, 2, 3]]);
+    });
   });
 
   it('should split array into multiple arrays of input size', function() {
