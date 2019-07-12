@@ -47,4 +47,10 @@ describe('SplitArray function', () => {
     expect(splitArray([1, 2, 3], 3)).toStrictEqual([[1, 2, 3]]);
     expect(splitArrayLodash([1, 2, 3], 3)).toStrictEqual([[1, 2, 3]]);
   });
+
+  it('should return multiple arrays with a large input', function() {
+    expect(splitArray([1, 2, 3, 4, 5, 6, 7, 8, 9, 10], 3)).toStrictEqual([[1, 2, 3], [4, 5, 6], [7, 8, 9], [10]]);
+    expect(splitArrayLodash([1, 2, 3, 4, 5, 6, 7, 8, 9, 10], 3)).toStrictEqual([[1, 2, 3], [4, 5, 6], [7, 8, 9], [10]]);
+
+  });
 });
