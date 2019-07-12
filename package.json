@@ -8,7 +8,7 @@
     "test": "jest",
     "compile": "tsc",
     "run": "node dist/index.js",
-    "prepublishOnly": "compile"
+    "prepublishOnly": "npm run compile"
   },
   "keywords": [],
   "author": "",
