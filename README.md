@@ -1,4 +1,4 @@
-#Twig Coding Challenge
+# Twig Coding Challenge
 
 My submission for the Twig coding challenge.
 
@@ -7,7 +7,7 @@ an internal library is the splitSize given.
 
 If the array cannot be divided equally by the splitSize, the final array will contain the remainder.
 
-###Example usage
+### Example usage
 
 Install via `npm install mikeporter-twig-coding-challenge`
 
