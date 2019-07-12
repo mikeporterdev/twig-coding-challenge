@@ -1,5 +1,7 @@
 # Twig Coding Challenge
 
+![npm](https://img.shields.io/npm/v/mikeporter-twig-coding-challenge.svg)
+
 My submission for the Twig coding challenge.
 
 This library provides a function to split an array of type T[] into an array of arrays (T[][]) where the maximum size of 

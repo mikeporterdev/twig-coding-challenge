@@ -15,6 +15,10 @@
   "files": [
     "dist/**/*"
   ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mikeporterdev/twig-coding-challenge"
+  },
   "devDependencies": {
     "@types/jest": "^24.0.15",
     "@types/lodash.chunk": "^4.2.6",
