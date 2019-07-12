@@ -1,6 +1,6 @@
 # Twig Coding Challenge
 
-![npm](https://img.shields.io/npm/v/mikeporter-twig-coding-challenge.svg)
+[![npm version](https://badge.fury.io/js/mikeporter-twig-coding-challenge.svg)](https://badge.fury.io/js/mikeporter-twig-coding-challenge)
 
 My submission for the Twig coding challenge.
 
@@ -24,3 +24,11 @@ splitArray([1, 2, 3], 2);
 // [[1, 2], [3]]
 ```
 
+### Checking out project and running tests
+```bash
+git clone https://github.com/mikeporterdev/twig-coding-challenge
+cd twig-coding-challenge
+npm install
+npm test
+npm run compile
+```
