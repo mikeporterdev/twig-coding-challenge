@@ -23,8 +23,8 @@ export function splitArray<T>(array: T[] | null | undefined, splitSize: number):
 
 /**
  * Added a Lodash example as a bonus. This is how I would normally do this but I felt a library one-liner might have
- * defeated the point. Although Lodash can be quite heavy so I would only implement this into a project that either
- * already had Lodash included any where the team have a decent grasp of lodash previously.
+ * defeated the point of the test. Although Lodash can be quite heavy so I would only implement this into a project that
+ * either already had Lodash included any where the team have a decent grasp of lodash previously.
  */
 export function splitArrayLodash<T>(array: T[] | null | undefined, splitSize: number): T[][] {
   return chunk(array, splitSize);
