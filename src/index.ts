@@ -1,1 +1,1 @@
-export * from './split-array';
+export * from './split-array-by-size';

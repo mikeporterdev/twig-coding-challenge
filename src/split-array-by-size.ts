@@ -6,7 +6,7 @@ import chunk = require('lodash.chunk');
  * @param splitSize - Defines the max size of each internal array. Should be a positive number greater than 0.
  * @returns A new array of arrays, split by the splitSize.
  */
-export function splitArray<T>(array: T[] | null | undefined, splitSize?: number): T[][] {
+export function splitArrayBySize<T>(array: T[] | null | undefined, splitSize?: number): T[][] {
   if (!array || !splitSize || splitSize <= 0) {
     return [];
   }

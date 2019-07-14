@@ -15,12 +15,12 @@ Install via `npm install mikeporter-twig-coding-challenge`
 
 Usage:
 ```javascript
-import {splitArray} from 'mikeporter-twig-coding-challenge';
+import {splitArrayBySize} from 'mikeporter-twig-coding-challenge';
 
-splitArray([1, 2, 3, 4], 2);
+splitArrayBySize([1, 2, 3, 4], 2);
 // [[1, 2], [3, 4]]
 
-splitArray([1, 2, 3], 2);
+splitArrayBySize([1, 2, 3], 2);
 // [[1, 2], [3]]
 ```
 
